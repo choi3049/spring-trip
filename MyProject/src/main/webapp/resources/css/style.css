@@ -1,35 +1,81 @@
-*{
-	margin:0px;
+* {
+	margin: 0px;
 }
 
 header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  
-  height: 50px;
-  padding: 2px;
-  color: black;
-  background: white;
-  font-weight: bold;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+	position: fixed;
+	top: 0; 
+	left : 0; 
+	right : 0;
+	height: 50px;
+	padding: 2px;
+	color: black;
+	background: white;
+	font-weight: bold;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
 }
 
-h1{
-	padding-left:30px;
-	padding-bottom:5px;
+h1 {
+	padding-left: 30px;
+	padding-bottom: 5px;
 }
-img{
+
+img {
 	width: 100%;
-  	height: auto;
-  	display: block;
+	height: auto;
+	display: block;
 }
 
-
-.background-photo{
+.background-photo {
 	width: 100%;
-  	height: 700px;
+}
+
+.selectPage {
+	display:table;
+	width: 80%;
+	height: 200px;
+	margin-top:30px;
+	padding-left:10%;
+}
+
+.selectPage_Box {
+	width: 33%;
+	height: 100%;
+	background: #282828;
+	float: left;
+	text-align:center;
+	display: flex;
+	justify-content: center;
+ 	align-items: center;
+	
+}
+
+.selectPage_Box:nth-child(2){
+		background: #424242;
+}
+
+p{
+	color:white;
+}
+
+@media ( max-width : 800px ) {
+.selectPage {
+}
+
+.selectPage_Box {
+		width: 50%;
+	
+}
+
+}
+@media ( max-width : 450px ) {
+	.selectPage {
+	}
+	.selectPage_Box {
+		width: 100%;
+	
+	}
 }
