@@ -15,7 +15,7 @@
 <body>
 
 	<header>
-		<h1>trip to Fukuoka</h1>
+		<h1>Trip to Fukuoka</h1>
 		<nav>
 			<span>Log in</span>
 		</nav>
@@ -24,8 +24,11 @@
 
 
 	<div class="background-photo">
-		<img
+			<img
 			src="https://p4.wallpaperbetter.com/wallpaper/188/910/566/night-city-fukuoka-road-wallpaper-preview.jpg">
+				<div class="background-text">
+				<p class="tit">Trip to FuKuoka</p>
+				<p class="ti">후쿠오카 여행의 모든것</p></div>
 	</div>
 	
 	<div class="selectPage">
@@ -33,6 +36,8 @@
 		<div class="selectPage_Box" ><p>카페</p></div>
 		<div class="selectPage_Box"><p>맛집</p></div>
 	</div>
+
+<div></div>
 
 </body>
 </html>
