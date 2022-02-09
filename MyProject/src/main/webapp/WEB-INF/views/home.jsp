@@ -32,9 +32,10 @@
 	</div>
 	
 	<div class="selectPage">
-		<div class="selectPage_Box"><p>관광</p></div>
-		<div class="selectPage_Box" ><p>카페</p></div>
-		<div class="selectPage_Box"><p>맛집</p></div>
+		<div class="selectPage_Box"><p class="clickVal"><a href="/tripboard/placelist">관광</a></p>
+</div>
+		<div class="selectPage_Box" ><p class="clickVal">카페</p></div>
+		<div class="selectPage_Box"><p class="clickVal">맛집</p></div>
 	</div>
 
 <div></div>

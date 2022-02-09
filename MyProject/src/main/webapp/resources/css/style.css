@@ -4,9 +4,9 @@
 
 header {
 	position: fixed;
-	top: 0; 
-	left : 0; 
-	right : 0;
+	top: 0;
+	left: 0;
+	right: 0;
 	height: 60px;
 	padding: 2px;
 	color: black;
@@ -15,8 +15,7 @@ header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	z-index:1;
-
+	z-index: 1;
 }
 
 h1 {
@@ -32,32 +31,34 @@ img {
 
 .background-photo {
 	width: 100%;
-	position:relative;
+	position: relative;
 }
 
-.background-photo .background-text{
-	position:absolute;
-	top:30%;
-	width:100%;
-	height:100%;
-	text-align:center;	
+.background-photo .background-text {
+	position: absolute;
+	top: 30%;
+	width: 100%;
+	height: 100%;
+	text-align: center;
 }
-.tit{
-	font-size:50px;
-	font-weight:bold;
-	margin-bottom:10px;
+
+.tit {
+	font-size: 50px;
+	font-weight: bold;
+	margin-bottom: 10px;
 }
-.ti{
-	font-size:30px;
-	font-weight:bold;
+
+.ti {
+	font-size: 30px;
+	font-weight: bold;
 }
 
 .selectPage {
-	display:table;
+	display: table;
 	width: 80%;
 	height: 200px;
-	margin-top:30px;
-	padding-left:10%;
+	margin-top: 30px;
+	padding-left: 10%;
 }
 
 .selectPage_Box {
@@ -67,32 +68,33 @@ img {
 	float: left;
 	display: flex;
 	justify-content: center;
- 	align-items: center;
-	
+	align-items: center;
 }
 
-.selectPage_Box:nth-child(2){
-		background: #424242;
+.selectPage_Box:nth-child(2) {
+	background: #424242;
 }
 
-p{
-	color:white;
+p {
+	color: white;
+	z-index: 1;
 }
 
+a {
+	padding:90px;
+}
 
+.clickVal{
+}
 
 @media ( max-width : 800px ) {
-
-.selectPage_Box {
+	.selectPage_Box {
 		width: 50%;
-	
+	}
 }
 
-}
 @media ( max-width : 450px ) {
-
 	.selectPage_Box {
 		width: 100%;
-	
 	}
 }
